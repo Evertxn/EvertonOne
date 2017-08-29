@@ -30,7 +30,7 @@ function main() {
     	// will fade out the whole DIV that covers the website. 
     	$("#preloader").delay(500).fadeOut("slow").remove();      
 
-  	}) 
+  	});
 
    // Page scroll
   	$('a.page-scroll').click(function() {
@@ -59,7 +59,7 @@ function main() {
     $('body').scrollspy({ 
         target: '.navbar-default',
         offset: 80
-    })
+    });
 
   	$(document).ready(function() {
   	    $("#testimonial").owlCarousel({
